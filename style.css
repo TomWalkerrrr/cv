@@ -1,0 +1,3375 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body[data-page="index.html"] {
+    background-color: rgba(49, 49, 49, 255);
+    overflow-x: hidden;
+}
+
+nav {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    gap: 1rem;
+    font-family: "Lora", serif;
+    transition: 0.5s ease;
+}
+
+nav h1 {
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#apropos {
+    color: rgb(227, 227, 227);
+    text-decoration: underline;
+}
+
+nav option {
+    color: black;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav li {
+    position: relative;
+    color: white;
+    margin-left: 2rem;
+    font-family: "Lora", serif;
+    font-size: 1.2rem;
+    display: inline-flex;
+
+}
+
+header h1 {
+    position: relative;
+    color: white;
+    float: left;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    top: -1.5rem;
+}
+
+article #placeholder {
+    position: relative;
+    max-width: 20vw;
+    top: 8rem;
+    height: auto;
+    left: 20vw;
+    border-radius: 100%;
+    border: 0.5rem solid rgb(67, 67, 67);
+}
+
+article h1 {
+    position: relative;
+    color: white;
+    font-family: roboto;
+    font-size: 2rem;
+    top: -10rem;
+    left: 40rem;
+}
+
+article .description {
+    position: relative;
+    max-width: 35vw;
+    top: -10rem;
+    left: 40.5rem;
+    border-left: 10px double #ff6550;
+    padding-left: 15px;
+    color: white;
+}
+
+article button {
+    position: relative;
+    top: -10rem;
+    left: 38.5rem;
+    padding: 0.5rem 1rem;
+    margin-left: 2rem;
+    border-radius: 9px;
+    background: transparent;
+    color: white;
+    border: 2.5px solid white;
+}
+
+nav h1:hover {
+    color: tomato;
+    text-shadow: 5px 5px 15px tomato, 5px 5px 15px tomato;
+}
+
+.downloadcv {
+    border: 2.5px solid tomato;
+    transition: 0.5s ease;
+}
+
+.viewcv {
+    border: 2.5px solid white;
+    transition: 0.5s ease;
+}
+
+.viewcv:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 32px 0px white;
+    color: rgb(89, 89, 89);
+}
+
+.downloadcv:hover {
+    background-color: tomato;
+    box-shadow: 5px 5px 32px 0px tomato;
+    color: white;
+}
+
+.separator {
+    position: relative;
+    max-width: 25vw;
+    height: 0.1rem;
+    background-color: tomato;
+    left: 40vw;
+}
+
+.h2title {
+    position: relative;
+    text-align: center;
+    left: 3vw;
+    color: white;
+    font-family: roboto, sans-serif;
+    text-transform: uppercase;
+}
+
+#palette {
+    position: relative;
+    left: 59vw;
+    top: -3.3vw;
+}
+
+#jobicon {
+    position: relative;
+    left: 65vw;
+    top: -4vw;
+}
+
+#logostar {
+    position: relative;
+    left: 59vw;
+    width: 2vw;
+    /* filter: hue-rotate(150deg) saturate(1.5) brightness(1.1); */
+    top: -3.3vw;
+}
+
+.firstcompetence {
+    position: relative;
+    color: white;
+    font-family: "roboto", serif;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    max-width: 5vw;
+    transition: 1s ease;
+    /* border-bottom: 2px solid tomato; */
+    padding-left: 1.5rem;
+    transition: 0.5s ease
+}
+
+.firstquality {
+    position: relative;
+    color: white;
+    font-family: "roboto", serif;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    max-width: 25vw;
+    transition: 1s ease;
+    /* border-bottom: 2px solid tomato; */
+    padding-left: 1.5rem;
+    transition: 0.5s ease
+}
+
+.secondquality {
+    position: relative;
+    color: white;
+    font-family: "roboto", serif;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    max-width: 25vw;
+    transition: 1s ease;
+    /* border-bottom: 2px solid tomato; */
+    padding-left: 1.5rem;
+    transition: 0.5s ease
+}
+
+
+.secondquality.active {
+    position: relative;
+    color: white;
+    font-family: "roboto", serif;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    max-width: 25vw;
+    transition: 1s ease;
+    /* border-bottom: 2px solid tomato; */
+    padding-left: 1.5rem;
+    transition: 0.5s ease
+}
+
+.quality {
+    max-width: 40vw;
+    transition: 0.5s ease;
+    height: 15vh;
+}
+
+.exppro {
+    max-width: 40vw;
+    transition: 0.5s ease;
+    height: 15vh;
+    /* background-color: red; */
+}
+
+.exppro.active {
+    max-width: 40vw;
+    transition: 0.5s ease;
+    background: #29292979;
+    height: 15vh;
+}
+
+.expproh2 {
+    position: relative;
+    color: white;
+    font-family: "roboto", serif;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    max-width: 35vw;
+    transition: 1s ease;
+    /* border-bottom: 2px solid tomato; */
+    padding-left: 1.5rem;
+}
+
+.expproh2.active {
+    position: relative;
+    color: white;
+    font-family: "roboto", serif;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    max-width: 35vw;
+    transition: 1s ease;
+    /* border-bottom: 2px solid tomato; */
+    padding-left: 1.5rem;
+    transition: 0.5s ease
+}
+
+.qualitys {
+    max-width: 40vw;
+    transition: 0.5s ease;
+    height: 15vh;
+}
+
+.pquality {
+    position: relative;
+    color: white;
+    font-family: "Lora", serif;
+    border-left: 10px double #ADD8E6;
+    padding-left: 15px;
+    cursor: pointer;
+    max-width: 30vw;
+    transition: 0.5s ease;
+}
+
+.expprop {
+    position: relative;
+    color: white;
+    font-family: "Lora", serif;
+    border-left: 10px double #ffffff;
+    padding-left: 15px;
+    cursor: pointer;
+    max-width: 30vw;
+    transition: 0.5s ease;
+}
+
+.expprop.active {
+    position: relative;
+    color: white;
+    font-size: 1.05rem;
+    padding-left: 15px;
+    max-width: 30vw;
+    /* background-color: rgba(18, 18, 18, 0.781); */
+}
+
+.pquality.active {
+    position: relative;
+    color: white;
+    font-size: 1.05rem;
+    padding-left: 15px;
+    max-width: 30vw;
+    /* background-color: rgba(18, 18, 18, 0.781); */
+}
+
+.pqualitys {
+    position: relative;
+    color: white;
+    font-family: "Lora", serif;
+    border-left: 10px double #ADD8E6;
+    padding-left: 15px;
+    cursor: pointer;
+    max-width: 30vw;
+    transition: 0.5s ease;
+}
+
+.pqualitys.active {
+    position: relative;
+    color: white;
+    font-size: 1.05rem;
+    padding-left: 15px;
+    max-width: 30vw;
+    /* background-color: rgba(18, 18, 18, 0.781); */
+}
+
+.firstquality.active {
+    position: relative;
+    color: white;
+    font-family: "roboto", serif;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    max-width: 25vw;
+    transition: 1s ease;
+    /* border-bottom: 2px solid tomato; */
+    padding-left: 1.5rem;
+    transition: 0.5s ease
+}
+
+.separatordeux {
+    position: relative;
+    max-width: 25vw;
+    height: 0.1rem;
+    background-color: #ADD8E6;
+    left: 40vw;
+}
+
+
+.firstp {
+    position: relative;
+    color: white;
+    font-family: "Lora", serif;
+    border-left: 10px double tomato;
+    padding-left: 15px;
+    cursor: pointer;
+    max-width: 30vw;
+    transition: 0.5s ease;
+}
+
+#folder {
+    position: relative;
+    left: -2rem;
+}
+
+.firstcompetencehtml {
+    position: relative;
+    color: white;
+    font-family: "roboto", serif;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    max-width: 5vw;
+    transition: 1s ease;
+    /* border-bottom: 2px solid tomato; */
+    padding-left: 1.5rem;
+}
+
+.firstphtml {
+    position: relative;
+    color: white;
+    font-family: "roboto", serif;
+    border-left: 10px double tomato;
+    padding-left: 15px;
+    left: 0rem;
+    cursor: pointer;
+    max-width: 30vw;
+    transition: 0.5s ease;
+}
+
+#drawicon {
+    position: relative;
+    left: 35vw;
+    top: -4.5vw;
+}
+
+#persoqualityicon {
+    position: relative;
+    left: 35vw;
+    width: 2.56vw;
+    top: -4.5vw;
+}
+
+#codeicon {
+    position: relative;
+    left: 35vw;
+    top: -8.5vw;
+    pointer-events: none;
+    user-select: none
+}
+
+/* #codeicon {
+    position: relative;
+    left: 0vw;
+    top: -0.0vw;
+    border-left: 10px double tomato;
+    padding-left: 1rem;
+}
+
+#cssicon {
+    position: relative;
+    left: -5.05vw;
+    top: 4vw;
+    border-left: 10px double tomato;
+    padding-left: 1rem;
+}
+
+#jspicon {
+    position: relative;
+    left: -5.05vw;
+    top: 4vw;
+    border-left: 10px double tomato;
+    padding-left: 1rem;
+} */
+
+.firstphtml.active {
+    position: relative;
+    color: white;
+    font-size: 1.05rem;
+    padding-left: 15px;
+    max-width: 30vw;
+    /* background-color: rgba(18, 18, 18, 0.781); */
+}
+
+.firstp.active {
+    position: relative;
+    color: white;
+    font-size: 1.05rem;
+    padding-left: 15px;
+    max-width: 30vw;
+    /* background-color: rgba(18, 18, 18, 0.781); */
+}
+
+.design {
+    max-width: 40vw;
+    transition: 0.5s ease;
+    height: 15vh;
+}
+
+.design:hover {
+    /* width: 100%; */
+    background-color: #29292979;
+}
+
+.seconddesign {
+    max-width: 40vw;
+    width: 100%;
+    transition: 0.3s ease;
+    height: 25vh;
+}
+
+.seconddesign.active {
+    /* width: 100%; */
+    background-color: #29292979;
+}
+
+.seconddesign.active *:not(.firstcompetencehtml) {
+    font-size: 1.1rem;
+}
+
+.seconddesign.active .firstcompetencehtml {
+    color: tomato;
+}
+
+.quality.active {
+    /* width: 100%; */
+    background-color: #29292979;
+}
+
+.qualitys.active {
+    /* width: 100%; */
+    background-color: #29292979;
+}
+
+#iconsetting {
+    position: relative;
+    left: 35vw;
+    top: -1.9vw;
+    width: 2.2vw;
+}
+
+#iconsetting:hover {
+    cursor: pointer;
+}
+
+.openmenu {
+    display: none;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    background-color: #292929;
+    position: absolute;
+    z-index: 7;
+    left: 80vw;
+    top: 4vw;
+    margin: 0;
+    list-style: none;
+}
+
+.openmenu.active {
+    display: flex;
+    flex-direction: column;
+    background-color: #29292979;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.openmenu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.openmenu a {
+    color: white;
+    text-decoration: none;
+    padding-left: 0;
+    margin-left: 0;
+    display: block;
+}
+
+@media (max-width: 1300px) {
+    #placeholder {
+        position: relative;
+        margin-left: 4vw;
+    }
+
+    article .description {
+        position: relative;
+        margin-left: -4vw;
+        max-width: 25vw;
+    }
+
+    article h1 {
+        position: relative;
+        margin-left: -4vw;
+    }
+
+    .downloadcv {
+        position: relative;
+        margin-left: -2vw;
+    }
+
+    #drawicon {
+        position: relative;
+        left: 30rem;
+        max-width: 5vw;
+        top: -8.7vw;
+    }
+
+    #palette {
+        position: relative;
+        left: 60vw;
+        top: -3.5vw;
+    }
+
+    #jobicon {
+        position: relative;
+        left: 68vw;
+        top: -3.5vw;
+    }
+
+    #logostar {
+        position: relative;
+        left: 60vw;
+        width: 2vw;
+        top: -3.8vw;
+    }
+
+    #persoqualityicon {
+        position: relative;
+        left: 30rem;
+        width: 2.56vw;
+        top: -9.7vw;
+    }
+
+    #codeicon {
+        position: relative;
+        left: 30rem;
+        max-width: 5vw;
+        top: -18.7vw;
+    }
+}
+
+@media (max-width: 1150px) {
+    #placeholder {
+        position: relative;
+        margin-left: 1vw;
+        top: -5vw;
+    }
+
+    article .description {
+        position: relative;
+        margin-left: -10vw;
+        max-width: 35vw;
+    }
+
+    article h1 {
+        position: relative;
+        margin-left: -10vw;
+    }
+
+    .downloadcv {
+        position: relative;
+        margin-left: -7.5vw;
+    }
+
+    #drawicon {
+        position: relative;
+        left: 30rem;
+        max-width: 5vw;
+        top: -8.7vw;
+    }
+
+    #palette {
+        position: relative;
+        left: 62vw;
+        top: -4vw;
+    }
+
+    #jobicon {
+        position: relative;
+        left: 70vw;
+        top: -4vw;
+    }
+
+    #logostar {
+        position: relative;
+        left: 60vw;
+        width: 2vw;
+        top: -3.8vw;
+    }
+
+    #persoqualityicon {
+        position: relative;
+        left: 30rem;
+        width: 2.56vw;
+        top: -9.7vw;
+    }
+
+    #codeicon {
+        position: relative;
+        left: 30rem;
+        max-width: 5vw;
+        top: -18.7vw;
+    }
+
+    nav {
+        display: none;
+    }
+}
+
+@media (max-width: 1120px) {
+    #placeholder {
+        position: relative;
+        margin-left: -30vw;
+        top: -15vw;
+    }
+
+    article .description {
+        position: relative;
+        margin-left: -32vw;
+        max-width: 35vw;
+        top: -20vh;
+    }
+
+    article h1 {
+        position: relative;
+        margin-left: -32vw;
+        top: -20vh;
+    }
+
+    .downloadcv {
+        position: relative;
+        margin-left: -29vw;
+    }
+
+    article button {
+        position: relative;
+        top: -20vh;
+    }
+
+    #drawicon {
+        position: relative;
+        left: 30rem;
+        max-width: 5vw;
+        top: -8.7vw;
+    }
+
+    #palette {
+        position: relative;
+        left: 62vw;
+        top: -4vw;
+    }
+
+    #jobicon {
+        position: relative;
+        left: 70vw;
+        top: -4vw;
+    }
+
+    #logostar {
+        position: relative;
+        left: 60vw;
+        width: 2vw;
+        top: -3.8vw;
+    }
+
+    #persoqualityicon {
+        position: relative;
+        left: 30rem;
+        width: 2.56vw;
+        top: -9.7vw;
+    }
+
+    #codeicon {
+        position: relative;
+        left: 30rem;
+        max-width: 5vw;
+        top: -18.7vw;
+    }
+
+    nav {
+        display: none;
+    }
+}
+
+@media (max-width: 950px) {
+    #placeholder {
+        position: relative;
+        margin-left: -25vw;
+        top: 2vw;
+    }
+
+    article .description {
+        position: relative;
+        margin-left: -32vw;
+        max-width: 30vw;
+        top: -20vh;
+    }
+
+    article h1 {
+        position: relative;
+        margin-left: -32vw;
+        top: -17vh;
+    }
+
+    .downloadcv {
+        position: relative;
+        margin-left: -29vw;
+        top: -20vh;
+    }
+
+    article button {
+        position: relative;
+    }
+
+    .viewcv {
+        position: relative;
+        top: -20vh;
+    }
+
+    /* logo / icon  */
+
+    #drawicon {
+        position: relative;
+        left: 30rem;
+        max-width: 5vw;
+        top: -5.7vw;
+    }
+
+    #palette {
+        position: relative;
+        left: 62vw;
+        top: -5vw;
+    }
+
+    #jobicon {
+        position: relative;
+        left: 72vw;
+        top: -5vw;
+    }
+
+    #logostar {
+        position: relative;
+        left: 60vw;
+        width: 3vw;
+        top: -5.2vw;
+    }
+
+    #persoqualityicon {
+        position: relative;
+        left: 40rem;
+        width: 2.56vw;
+        top: -9vw;
+    }
+
+    #codeicon {
+        position: relative;
+        left: 30rem;
+        max-width: 5vw;
+        top: -18.7vw;
+    }
+
+    /* CATEGORIE QUALITE */
+
+    /* First h2 for .firstquality */
+    .firstquality {
+        max-width: 60vw;
+    }
+
+    .secondquality {
+        max-width: 60vw;
+    }
+
+    .quality {
+        max-width: 65vw;
+    }
+
+    .qualitys {
+        max-width: 65vw;
+    }
+
+    .pquality {
+        max-width: 60vw;
+    }
+
+    .pqualitys {
+        max-width: 60vw;
+    }
+
+    .pquality.active {
+        position: relative;
+        color: white;
+        font-size: 1.05rem;
+        padding-left: 15px;
+        max-width: 60vw;
+        /* background-color: rgba(18, 18, 18, 0.781); */
+    }
+
+    .firstquality.active {
+        max-width: 60vw;
+    }
+
+    .pqualitys.active {
+        position: relative;
+        color: white;
+        font-size: 1.05rem;
+        padding-left: 15px;
+        max-width: 60vw;
+        /* background-color: rgba(18, 18, 18, 0.781); */
+    }
+
+    .secondquality.active {
+        max-width: 60vw;
+    }
+
+    /* EXPERIENCE PRO  */
+
+    .exppro {
+        max-width: 60vw;
+    }
+
+    .expproh2 {
+        max-width: 70vw;
+    }
+
+    .expprop {
+        max-width: 60vw;
+        height: auto;
+    }
+
+    .exppro.active {
+        max-width: 60vw;
+    }
+
+    .expprop.active {
+        max-width: 60vw;
+    }
+
+    .expproh2.active {
+        max-width: 60vw;
+    }
+
+    nav {
+        display: none;
+    }
+}
+
+@media (max-width: 780px) {
+    #placeholder {
+        position: relative;
+        margin-left: -25vw;
+        top: 2vw;
+    }
+
+    article .description {
+        position: relative;
+        margin-left: -40vw;
+        max-width: 40vw;
+        top: -15vh;
+    }
+
+    article h1 {
+        position: relative;
+        margin-left: -40vw;
+        top: -15vh;
+    }
+
+    .downloadcv {
+        position: relative;
+        margin-left: -36vw;
+        top: -15vh;
+    }
+
+    article button {
+        position: relative;
+    }
+
+    .viewcv {
+        position: relative;
+        top: -15vh;
+    }
+
+    /* logo / icon  */
+
+    #drawicon {
+        display: none;
+    }
+
+    #palette {
+        position: relative;
+        left: 65vw;
+        top: -6vw;
+    }
+
+    #jobicon {
+        position: relative;
+        left: 75vw;
+        top: -6vw;
+    }
+
+    #logostar {
+        position: relative;
+        left: 60vw;
+        width: 3vw;
+        top: -6.2vw;
+    }
+
+    #persoqualityicon {
+        display: none;
+    }
+
+    #codeicon {
+        display: none;
+    }
+
+    /* Categorie design / competence  */
+
+    .design {
+        max-width: 90vw;
+    }
+
+    .firstcompetence {
+        max-width: 60vw;
+    }
+
+    .firstp {
+        max-width: 80vw;
+    }
+
+    .firstp.active {
+        max-width: 80vw;
+    }
+
+    /* CATEGORIE QUALITE */
+
+    /* First h2 for .firstquality */
+    .firstquality {
+        max-width: 60vw;
+    }
+
+    .secondquality {
+        max-width: 60vw;
+    }
+
+    .quality {
+        max-width: 65vw;
+    }
+
+    .qualitys {
+        max-width: 65vw;
+    }
+
+    .pquality {
+        max-width: 60vw;
+    }
+
+    .pqualitys {
+        max-width: 60vw;
+    }
+
+    .pquality.active {
+        position: relative;
+        color: white;
+        font-size: 1.05rem;
+        padding-left: 15px;
+        max-width: 60vw;
+        /* background-color: rgba(18, 18, 18, 0.781); */
+    }
+
+    .firstquality.active {
+        max-width: 60vw;
+    }
+
+    .pqualitys.active {
+        position: relative;
+        color: white;
+        font-size: 1.05rem;
+        padding-left: 15px;
+        max-width: 60vw;
+        /* background-color: rgba(18, 18, 18, 0.781); */
+    }
+
+    .secondquality.active {
+        max-width: 60vw;
+    }
+
+    /* EXPERIENCE PRO  */
+
+    .exppro {
+        max-width: 60vw;
+    }
+
+    .expproh2 {
+        max-width: 70vw;
+    }
+
+    .expprop {
+        max-width: 60vw;
+        height: auto;
+    }
+
+    .exppro.active {
+        max-width: 60vw;
+    }
+
+    .expprop.active {
+        max-width: 60vw;
+    }
+
+    .expproh2.active {
+        max-width: 60vw;
+    }
+
+    nav {
+        display: none;
+    }
+}
+
+@media (max-width: 730px) {
+    #placeholder {
+        position: relative;
+        margin-left: -10vw;
+        top: 2vw;
+    }
+
+    article .description {
+        position: relative;
+        margin-left: -55vw;
+        max-width: 40vw;
+        top: -15vh;
+    }
+
+    article h1 {
+        position: relative;
+        margin-left: -55vw;
+        top: -15vh;
+    }
+
+    .downloadcv {
+        position: relative;
+        margin-left: -51vw;
+        top: -15vh;
+    }
+
+    article button {
+        position: relative;
+    }
+
+    .viewcv {
+        position: relative;
+        top: -15vh;
+    }
+
+    /* logo / icon  */
+
+    #drawicon {
+        display: none;
+    }
+
+    #palette {
+        position: relative;
+        left: 65vw;
+        top: -6vw;
+    }
+
+    #jobicon {
+        position: relative;
+        left: 77vw;
+        top: -6.5vw;
+    }
+
+    #logostar {
+        position: relative;
+        left: 60vw;
+        width: 3vw;
+        top: -6.2vw;
+    }
+
+    #persoqualityicon {
+        display: none;
+    }
+
+    #codeicon {
+        display: none;
+    }
+
+    /* Categorie design / competence  */
+
+    .design {
+        max-width: 90vw;
+    }
+
+    .firstcompetence {
+        max-width: 60vw;
+    }
+
+    .firstp {
+        max-width: 80vw;
+    }
+
+    .firstp.active {
+        max-width: 80vw;
+    }
+
+    /* CATEGORIE QUALITE */
+
+    /* First h2 for .firstquality */
+    .firstquality {
+        max-width: 60vw;
+    }
+
+    .secondquality {
+        max-width: 60vw;
+    }
+
+    .quality {
+        max-width: 65vw;
+    }
+
+    .qualitys {
+        max-width: 65vw;
+    }
+
+    .pquality {
+        max-width: 60vw;
+    }
+
+    .pqualitys {
+        max-width: 60vw;
+    }
+
+    .pquality.active {
+        position: relative;
+        color: white;
+        font-size: 1.05rem;
+        padding-left: 15px;
+        max-width: 60vw;
+        /* background-color: rgba(18, 18, 18, 0.781); */
+    }
+
+    .firstquality.active {
+        max-width: 60vw;
+    }
+
+    .pqualitys.active {
+        position: relative;
+        color: white;
+        font-size: 1.05rem;
+        padding-left: 15px;
+        max-width: 60vw;
+        /* background-color: rgba(18, 18, 18, 0.781); */
+    }
+
+    .secondquality.active {
+        max-width: 60vw;
+    }
+
+    /* EXPERIENCE PRO  */
+
+    .exppro {
+        max-width: 60vw;
+    }
+
+    .expproh2 {
+        max-width: 70vw;
+    }
+
+    .expprop {
+        max-width: 60vw;
+        height: auto;
+    }
+
+    .exppro.active {
+        max-width: 60vw;
+    }
+
+    .expprop.active {
+        max-width: 60vw;
+    }
+
+    .expproh2.active {
+        max-width: 60vw;
+    }
+
+    nav {
+        display: none;
+    }
+}
+
+@media (max-width: 620px) {
+    #placeholder {
+        position: relative;
+        margin-left: -10vw;
+        top: 2vw;
+    }
+
+    article .description {
+        position: relative;
+        margin-left: -70vw;
+        max-width: 45vw;
+        top: -15vh;
+    }
+
+    article h1 {
+        position: relative;
+        margin-left: -70vw;
+        top: -15vh;
+    }
+
+    .downloadcv {
+        position: relative;
+        margin-left: -65vw;
+        top: -15vh;
+    }
+
+    article button {
+        position: relative;
+    }
+
+    .viewcv {
+        position: relative;
+        top: -15vh;
+    }
+
+    /* logo / icon  */
+
+    #drawicon {
+        display: none;
+    }
+
+    #palette {
+        position: relative;
+        left: 65vw;
+        top: -7.5vw;
+    }
+
+    #jobicon {
+        position: relative;
+        left: 81vw;
+        top: -7.5vw;
+    }
+
+    #logostar {
+        position: relative;
+        left: 60vw;
+        width: 3vw;
+        top: -7.2vw;
+    }
+
+    #persoqualityicon {
+        display: none;
+    }
+
+    #codeicon {
+        display: none;
+    }
+
+    /* Categorie design / competence  */
+
+    .design {
+        max-width: 90vw;
+    }
+
+    .firstcompetence {
+        max-width: 60vw;
+    }
+
+    .firstp {
+        max-width: 80vw;
+    }
+
+    .firstp.active {
+        max-width: 80vw;
+    }
+
+    /* CATEGORIE QUALITE */
+
+    /* First h2 for .firstquality */
+    .firstquality {
+        max-width: 80vw;
+    }
+
+    .secondquality {
+        max-width: 80vw;
+    }
+
+    .quality {
+        max-width: 80vw;
+    }
+
+    .qualitys {
+        max-width: 80vw;
+        padding-bottom: 3rem;
+    }
+
+    .pquality {
+        max-width: 80vw;
+    }
+
+    .pqualitys {
+        max-width: 80vw;
+    }
+
+    .pquality.active {
+        position: relative;
+        color: white;
+        font-size: 1.05rem;
+        padding-left: 15px;
+        max-width: 80vw;
+        /* background-color: rgba(18, 18, 18, 0.781); */
+    }
+
+    .firstquality.active {
+        max-width: 60vw;
+    }
+
+    .pqualitys.active {
+        position: relative;
+        color: white;
+        font-size: 1.05rem;
+        padding-left: 15px;
+        max-width: 80vw;
+        /* background-color: rgba(18, 18, 18, 0.781); */
+    }
+
+    .secondquality.active {
+        max-width: 60vw;
+    }
+
+    /* EXPERIENCE PRO  */
+
+    .exppro {
+        max-width: 80vw;
+    }
+
+    .expproh2 {
+        max-width: 80vw;
+    }
+
+    .expprop {
+        max-width: 80vw;
+        height: auto;
+    }
+
+    .exppro.active {
+        max-width: 80vw;
+    }
+
+    .expprop.active {
+        max-width: 80vw;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .expproh2.active {
+        max-width: 80vw;
+    }
+}
+
+@media (max-width: 560px) {
+    #placeholder {
+        position: relative;
+        margin-left: -10vw;
+        top: 2vw;
+    }
+
+    article .description {
+        position: relative;
+        margin-left: -80vw;
+        max-width: 50vw;
+        top: -15vh;
+    }
+
+    article h1 {
+        position: relative;
+        margin-left: -80vw;
+        top: -15vh;
+    }
+
+    .downloadcv {
+        position: relative;
+        margin-left: -75vw;
+        top: -15vh;
+    }
+
+    .viewcv {
+        position: relative;
+        top: -15vh;
+    }
+
+    /* logo / icon  */
+
+    #drawicon {
+        display: none;
+    }
+
+    #palette {
+        position: relative;
+        left: 67vw;
+        top: -8.5vw;
+    }
+
+    #jobicon {
+        position: relative;
+        left: 85vw;
+        top: -8vw;
+    }
+
+    #logostar {
+        position: relative;
+        left: 60vw;
+        width: 3vw;
+        top: -7.2vw;
+    }
+
+    #persoqualityicon {
+        display: none;
+    }
+
+    #codeicon {
+        display: none;
+    }
+
+    /* Categorie design / competence  */
+
+    .design {
+        max-width: 90vw;
+        padding-bottom: 3rem;
+    }
+
+    .firstcompetence {
+        max-width: 60vw;
+    }
+
+    .firstp {
+        max-width: 80vw;
+    }
+
+    .firstp.active {
+        max-width: 80vw;
+    }
+
+    /* CATEGORIE QUALITE */
+
+    /* First h2 for .firstquality */
+    .firstquality {
+        max-width: 80vw;
+    }
+
+    .secondquality {
+        max-width: 80vw;
+    }
+
+    .quality {
+        max-width: 80vw;
+        padding-bottom: 3rem;
+    }
+
+    .qualitys {
+        max-width: 80vw;
+
+    }
+
+    .pquality {
+        max-width: 80vw;
+    }
+
+    .pqualitys {
+        max-width: 80vw;
+    }
+
+    .pquality.active {
+        position: relative;
+        color: white;
+        font-size: 1.05rem;
+        padding-left: 15px;
+        max-width: 80vw;
+        /* background-color: rgba(18, 18, 18, 0.781); */
+    }
+
+    .firstquality.active {
+        max-width: 60vw;
+    }
+
+    .pqualitys.active {
+        position: relative;
+        color: white;
+        font-size: 1.05rem;
+        padding-left: 15px;
+        max-width: 80vw;
+        /* background-color: rgba(18, 18, 18, 0.781); */
+    }
+
+    .secondquality.active {
+        max-width: 60vw;
+    }
+
+    /* EXPERIENCE PRO  */
+
+    .exppro {
+        max-width: 80vw;
+        padding-bottom: 3rem;
+    }
+
+    .expproh2 {
+        max-width: 80vw;
+    }
+
+    .expprop {
+        max-width: 80vw;
+        height: auto;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .exppro.active {
+        max-width: 80vw;
+    }
+
+    .expprop.active {
+        max-width: 80vw;
+    }
+
+    .expproh2.active {
+        max-width: 80vw;
+    }
+}
+
+@media (max-width: 525px) {
+    #placeholder {
+        position: relative;
+        display: flex;
+        width: 100%;
+        max-width: 25vw;
+        margin-left: -20vw;
+        top: 2vw;
+    }
+
+    article .description {
+        position: relative;
+        margin-left: -95vw;
+        max-width: 60vw;
+        font-size: 0.9rem;
+        top: -11vh;
+    }
+
+    article h1 {
+        position: relative;
+        margin-left: -95vw;
+        top: -11vh;
+    }
+
+    .downloadcv {
+        position: relative;
+        margin-left: -89vw;
+        top: -12vh;
+    }
+
+    .viewcv {
+        position: relative;
+        top: -12vh;
+    }
+
+    /* logo / icon  */
+
+    #drawicon {
+        display: none;
+    }
+
+    #palette {
+        position: relative;
+        left: 67vw;
+        top: -9vw;
+    }
+
+    #jobicon {
+        position: relative;
+        left: 85vw;
+        top: -8.5vw;
+    }
+
+    #logostar {
+        position: relative;
+        left: 60vw;
+        width: 5vw;
+        top: -9.2vw;
+    }
+
+    #persoqualityicon {
+        display: none;
+    }
+
+    #codeicon {
+        display: none;
+    }
+
+    /* Categorie design / competence  */
+
+    .design {
+        max-width: 90vw;
+        padding-bottom: 3rem;
+    }
+
+    .firstcompetence {
+        max-width: 60vw;
+    }
+
+    .firstp {
+        max-width: 80vw;
+    }
+
+    .firstp.active {
+        max-width: 80vw;
+    }
+
+    /* CATEGORIE QUALITE */
+
+    /* First h2 for .firstquality */
+    .firstquality {
+        max-width: 80vw;
+    }
+
+    .secondquality {
+        max-width: 80vw;
+    }
+
+    .quality {
+        max-width: 80vw;
+        padding-bottom: 3rem;
+    }
+
+    .qualitys {
+        max-width: 80vw;
+
+    }
+
+    .pquality {
+        max-width: 80vw;
+    }
+
+    .pqualitys {
+        max-width: 80vw;
+    }
+
+    .pquality.active {
+        position: relative;
+        color: white;
+        font-size: 1.05rem;
+        padding-left: 15px;
+        max-width: 80vw;
+        /* background-color: rgba(18, 18, 18, 0.781); */
+    }
+
+    .firstquality.active {
+        max-width: 60vw;
+    }
+
+    .pqualitys.active {
+        position: relative;
+        color: white;
+        font-size: 1.05rem;
+        padding-left: 15px;
+        max-width: 80vw;
+        /* background-color: rgba(18, 18, 18, 0.781); */
+    }
+
+    .secondquality.active {
+        max-width: 60vw;
+    }
+
+    /* EXPERIENCE PRO  */
+
+    .exppro {
+        max-width: 80vw;
+        padding-bottom: 3rem;
+    }
+
+    .expproh2 {
+        max-width: 80vw;
+    }
+
+    .expprop {
+        max-width: 80vw;
+        height: auto;
+    }
+
+    .exppro.active {
+        max-width: 80vw;
+    }
+
+    .expprop.active {
+        max-width: 80vw;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .expproh2.active {
+        max-width: 80vw;
+    }
+}
+
+@media (max-width: 500px) {
+    article #placeholder {
+
+        display: none;
+        /* position: relative;
+        display: flex;
+        width: 100%;
+        max-width: 12vw;
+        margin-left: -15vw;
+        top: 2vw; */
+    }
+
+    article .description {
+        position: relative;
+        margin-left: -1vw;
+        max-width: 80vw;
+        font-size: 0.9rem;
+        top: -9vh;
+    }
+
+    article h1 {
+        position: relative;
+        margin-left: 6vw;
+        font-size: 2.3rem;
+        top: -11vh;
+    }
+
+    .downloadcv {
+        position: relative;
+        margin-left: -119vw;
+        top: -9vh;
+    }
+
+    .viewcv {
+        position: relative;
+        top: -9vh;
+    }
+
+    /* logo / icon  */
+
+    #drawicon {
+        display: none;
+    }
+
+    #palette {
+        position: relative;
+        left: 67vw;
+        top: -9vw;
+    }
+
+    #jobicon {
+        position: relative;
+        left: 85vw;
+        top: -8.5vw;
+    }
+
+    #logostar {
+        position: relative;
+        left: 60vw;
+        width: 5vw;
+        top: -9.2vw;
+    }
+
+    #persoqualityicon {
+        display: none;
+    }
+
+    #codeicon {
+        display: none;
+    }
+
+    /* Categorie design / competence  */
+
+    .design {
+        max-width: 90vw;
+        padding-bottom: 3rem;
+    }
+
+    .firstcompetence {
+        max-width: 60vw;
+    }
+
+    .firstp {
+        max-width: 80vw;
+    }
+
+    .firstp.active {
+        max-width: 80vw;
+    }
+
+    /* CATEGORIE QUALITE */
+
+    /* First h2 for .firstquality */
+    .firstquality {
+        max-width: 80vw;
+    }
+
+    .secondquality {
+        max-width: 80vw;
+    }
+
+    .quality {
+        max-width: 80vw;
+        padding-bottom: 3rem;
+    }
+
+    .qualitys {
+        max-width: 80vw;
+
+    }
+
+    .pquality {
+        max-width: 80vw;
+    }
+
+    .pqualitys {
+        max-width: 80vw;
+    }
+
+    .pquality.active {
+        position: relative;
+        color: white;
+        font-size: 1.05rem;
+        padding-left: 15px;
+        max-width: 80vw;
+        /* background-color: rgba(18, 18, 18, 0.781); */
+    }
+
+    .firstquality.active {
+        max-width: 60vw;
+    }
+
+    .pqualitys.active {
+        position: relative;
+        color: white;
+        font-size: 1.05rem;
+        padding-left: 15px;
+        max-width: 80vw;
+        /* background-color: rgba(18, 18, 18, 0.781); */
+    }
+
+    .secondquality.active {
+        max-width: 60vw;
+    }
+
+    /* EXPERIENCE PRO  */
+
+    .exppro {
+        max-width: 80vw;
+        padding-bottom: 3rem;
+    }
+
+    .expproh2 {
+        max-width: 80vw;
+    }
+
+    .expprop {
+        max-width: 80vw;
+        height: auto;
+    }
+
+    .exppro.active {
+        max-width: 80vw;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .expprop.active {
+        max-width: 80vw;
+    }
+
+    .expproh2.active {
+        max-width: 80vw;
+    }
+}
+
+
+@media (max-width: 500px) {
+    article #placeholder {
+        position: relative;
+        display: flex;
+        width: 100%;
+        max-width: 12vw;
+        margin-left: -15vw;
+        top: 2vw;
+    }
+
+    article .description {
+        position: relative;
+        margin-left: -145vw;
+        max-width: 85vw;
+        font-size: 0.9rem;
+        padding-bottom: 1rem;
+        top: -9vh;
+    }
+
+    article h1 {
+        position: relative;
+        margin-left: -115vw;
+        font-size: 2.3rem;
+        top: -11vh;
+    }
+
+    .downloadcv {
+        position: relative;
+        margin-left: -119vw;
+        top: -9vh;
+    }
+
+    .viewcv {
+        position: relative;
+        top: -9vh;
+    }
+
+    /* logo / icon  */
+
+    #drawicon {
+        display: none;
+    }
+
+    #palette {
+        position: relative;
+        left: 69vw;
+        top: -10vw;
+    }
+
+    #jobicon {
+        display: none;
+    }
+
+    #logostar {
+        position: relative;
+        left: 63vw;
+        width: 5vw;
+        top: -10vw;
+    }
+
+    #persoqualityicon {
+        display: none;
+    }
+
+    #codeicon {
+        display: none;
+    }
+
+    /* Categorie design / competence  */
+
+    .design {
+        max-width: 90vw;
+        padding-bottom: 3rem;
+    }
+
+    .firstcompetence {
+        max-width: 60vw;
+    }
+
+    .firstp {
+        max-width: 80vw;
+    }
+
+    .firstp.active {
+        max-width: 80vw;
+    }
+
+    /* CATEGORIE QUALITE */
+
+    /* First h2 for .firstquality */
+    .firstquality {
+        max-width: 80vw;
+    }
+
+    .secondquality {
+        max-width: 80vw;
+    }
+
+    .quality {
+        max-width: 80vw;
+        padding-bottom: 3rem;
+    }
+
+    .qualitys {
+        max-width: 80vw;
+
+    }
+
+    .pquality {
+        max-width: 80vw;
+    }
+
+    .pqualitys {
+        max-width: 80vw;
+    }
+
+    .pquality.active {
+        position: relative;
+        color: white;
+        font-size: 1.05rem;
+        padding-left: 15px;
+        max-width: 80vw;
+        /* background-color: rgba(18, 18, 18, 0.781); */
+    }
+
+    .firstquality.active {
+        max-width: 60vw;
+    }
+
+    .pqualitys.active {
+        position: relative;
+        color: white;
+        font-size: 1.05rem;
+        padding-left: 15px;
+        max-width: 80vw;
+        /* background-color: rgba(18, 18, 18, 0.781); */
+    }
+
+    .secondquality.active {
+        max-width: 60vw;
+    }
+
+    /* EXPERIENCE PRO  */
+
+    .exppro {
+        max-width: 100vw;
+        padding-bottom: 3rem;
+    }
+
+    .expproh2 {
+        max-width: 100vw;
+    }
+
+    .expprop {
+        max-width: 80vw;
+        height: auto;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .exppro.active {
+        max-width: 80vw;
+    }
+
+    .expprop.active {
+        max-width: 80vw;
+    }
+
+    .expproh2.active {
+        max-width: 80vw;
+    }
+}
+
+@media (max-width: 430px) {
+    article #placeholder {
+        position: relative;
+        display: flex;
+        width: 100%;
+        max-width: 13vw;
+        margin-left: -20vw;
+        top: 2vw;
+    }
+
+    article .description {
+        position: relative;
+        margin-left: -155vw;
+        max-width: 85vw;
+        font-size: 0.9rem;
+        padding-bottom: 1rem;
+        top: -9vh;
+    }
+
+    article h1 {
+        position: relative;
+        margin-left: -130vw;
+        font-size: 2.3rem;
+        top: -11vh;
+    }
+
+    .downloadcv {
+        position: relative;
+        margin-left: -139vw;
+        top: -9vh;
+    }
+
+    .viewcv {
+        position: relative;
+        top: -9vh;
+    }
+
+    /* logo / icon  */
+
+    #drawicon {
+        display: none;
+    }
+
+    #palette {
+        position: relative;
+        left: 70vw;
+        top: -11vw;
+    }
+
+    #jobicon {
+        display: none;
+    }
+
+    #logostar {
+        position: relative;
+        left: 64vw;
+        width: 5vw;
+        top: -11vw;
+    }
+
+    #persoqualityicon {
+        display: none;
+    }
+
+    #codeicon {
+        display: none;
+    }
+
+    /* Categorie design / competence  */
+
+    .design {
+        max-width: 90vw;
+        padding-bottom: 4rem;
+    }
+
+    .firstcompetence {
+        max-width: 60vw;
+    }
+
+    .firstp {
+        max-width: 80vw;
+    }
+
+    .firstp.active {
+        max-width: 80vw;
+    }
+
+    /* CATEGORIE QUALITE */
+
+    /* First h2 for .firstquality */
+    .firstquality {
+        max-width: 80vw;
+    }
+
+    .secondquality {
+        max-width: 80vw;
+    }
+
+    .quality {
+        max-width: 80vw;
+        padding-bottom: 5rem;
+    }
+
+    .qualitys {
+        max-width: 80vw;
+        padding-bottom: 25vw;
+
+    }
+
+    .pquality {
+        max-width: 80vw;
+    }
+
+    .pqualitys {
+        max-width: 80vw;
+    }
+
+    .pquality.active {
+        position: relative;
+        color: white;
+        font-size: 1.05rem;
+        padding-left: 15px;
+        max-width: 80vw;
+        /* background-color: rgba(18, 18, 18, 0.781); */
+    }
+
+    .firstquality.active {
+        max-width: 60vw;
+    }
+
+    .pqualitys.active {
+        position: relative;
+        color: white;
+        font-size: 1.05rem;
+        padding-left: 15px;
+        max-width: 80vw;
+        /* background-color: rgba(18, 18, 18, 0.781); */
+    }
+
+    .secondquality.active {
+        max-width: 60vw;
+    }
+
+    /* EXPERIENCE PRO  */
+
+    .exppro {
+        max-width: 100vw;
+        padding-bottom: 3rem;
+    }
+
+    .expproh2 {
+        max-width: 100vw;
+    }
+
+    .expprop {
+        max-width: 80vw;
+        height: auto;
+    }
+
+    .exppro.active {
+        max-width: 80vw;
+    }
+
+    .expprop.active {
+        max-width: 80vw;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .expproh2.active {
+        max-width: 80vw;
+    }
+}
+
+@media (max-width: 380px) {
+    article #placeholder {
+        position: relative;
+        display: flex;
+        width: 100%;
+        max-width: 13vw;
+        margin-left: -20vw;
+        top: 2vw;
+    }
+
+    article .description {
+        position: relative;
+        margin-left: -170vw;
+        max-width: 50vw;
+        font-size: 0.9rem;
+        padding-bottom: 1rem;
+        top: -9vh;
+    }
+
+    article h1 {
+        position: relative;
+        margin-left: -150vw;
+        font-size: 2.0rem;
+        top: -10vh;
+    }
+
+    .downloadcv {
+        position: relative;
+        margin-left: -159vw;
+        top: -9vh;
+    }
+
+    .viewcv {
+        position: relative;
+        top: -9vh;
+    }
+
+    /* logo / icon  */
+
+    #drawicon {
+        display: none;
+    }
+
+    #palette {
+        position: relative;
+        left: 72vw;
+        top: -12vw;
+    }
+
+    #jobicon {
+        display: none;
+    }
+
+    #logostar {
+        position: relative;
+        left: 66vw;
+        width: 5vw;
+        top: -12vw;
+    }
+
+    #persoqualityicon {
+        display: none;
+    }
+
+    #codeicon {
+        display: none;
+    }
+
+    /* Categorie design / competence  */
+
+    .design {
+        max-width: 90vw;
+        padding-bottom: 4rem;
+    }
+
+    .firstcompetence {
+        max-width: 60vw;
+    }
+
+    .firstp {
+        max-width: 80vw;
+    }
+
+    .firstp.active {
+        max-width: 80vw;
+    }
+
+    /* CATEGORIE QUALITE */
+
+    /* First h2 for .firstquality */
+    .firstquality {
+        max-width: 80vw;
+    }
+
+    .secondquality {
+        max-width: 80vw;
+    }
+
+    .quality {
+        max-width: 80vw;
+        padding-bottom: 5rem;
+    }
+
+    .qualitys {
+        max-width: 80vw;
+        padding-bottom: 25vw;
+
+    }
+
+    nav {
+        display: none;
+    }
+
+    .pquality {
+        max-width: 80vw;
+    }
+
+    .pqualitys {
+        max-width: 80vw;
+    }
+
+    .pquality.active {
+        position: relative;
+        color: white;
+        font-size: 1.05rem;
+        padding-left: 15px;
+        max-width: 80vw;
+        /* background-color: rgba(18, 18, 18, 0.781); */
+    }
+
+    .firstquality.active {
+        max-width: 60vw;
+    }
+
+    .pqualitys.active {
+        position: relative;
+        color: white;
+        font-size: 1.05rem;
+        padding-left: 15px;
+        max-width: 80vw;
+        /* background-color: rgba(18, 18, 18, 0.781); */
+    }
+
+    .secondquality.active {
+        max-width: 60vw;
+    }
+
+    /* EXPERIENCE PRO  */
+
+    .exppro {
+        max-width: 100vw;
+        padding-bottom: 3rem;
+    }
+
+    .expproh2 {
+        max-width: 100vw;
+    }
+
+    .expprop {
+        max-width: 80vw;
+        height: auto;
+    }
+
+    .exppro.active {
+        max-width: 80vw;
+    }
+
+    .expprop.active {
+        max-width: 80vw;
+    }
+
+    .expproh2.active {
+        max-width: 80vw;
+    }
+
+    nav {
+        display: none;
+    }
+}
+
+@media (max-width: 350px) {
+    article #placeholder {
+        position: relative;
+        display: flex;
+        width: 100%;
+        max-width: 13vw;
+        margin-left: -20vw;
+        top: 2vw;
+    }
+
+    article .description {
+        position: relative;
+        margin-left: -190vw;
+        max-width: 50vw;
+        font-size: 0.9rem;
+        padding-bottom: 1rem;
+        top: -9vh;
+    }
+
+    article h1 {
+        position: relative;
+        margin-left: -165vw;
+        font-size: 2.0rem;
+        top: -10vh;
+    }
+
+    .downloadcv {
+        position: relative;
+        margin-left: -179vw;
+        top: -9vh;
+    }
+
+    .viewcv {
+        position: relative;
+        top: -9vh;
+    }
+
+    /* logo / icon  */
+
+    #drawicon {
+        display: none;
+    }
+
+    #palette {
+        position: relative;
+        left: 75vw;
+        top: -14vw;
+    }
+
+    #jobicon {
+        display: none;
+    }
+
+    #logostar {
+        position: relative;
+        left: 66vw;
+        width: 5vw;
+        top: -13vw;
+    }
+
+    #persoqualityicon {
+        display: none;
+    }
+
+    #codeicon {
+        display: none;
+    }
+
+    /* Categorie design / competence  */
+
+    .design {
+        max-width: 90vw;
+        padding-bottom: 4rem;
+    }
+
+    .firstcompetence {
+        max-width: 60vw;
+    }
+
+    .firstp {
+        max-width: 80vw;
+    }
+
+    .firstp.active {
+        max-width: 80vw;
+    }
+
+    /* CATEGORIE QUALITE */
+
+    /* First h2 for .firstquality */
+    .firstquality {
+        max-width: 80vw;
+    }
+
+    .secondquality {
+        max-width: 80vw;
+    }
+
+    .quality {
+        max-width: 80vw;
+        padding-bottom: 5rem;
+    }
+
+    .qualitys {
+        max-width: 80vw;
+        padding-bottom: 25vw;
+
+    }
+
+    .pquality {
+        max-width: 80vw;
+    }
+
+    .pqualitys {
+        max-width: 80vw;
+    }
+
+    .pquality.active {
+        position: relative;
+        color: white;
+        font-size: 1.05rem;
+        padding-left: 15px;
+        max-width: 80vw;
+        /* background-color: rgba(18, 18, 18, 0.781); */
+    }
+
+    .firstquality.active {
+        max-width: 60vw;
+    }
+
+    .pqualitys.active {
+        position: relative;
+        color: white;
+        font-size: 1.05rem;
+        padding-left: 15px;
+        max-width: 80vw;
+        /* background-color: rgba(18, 18, 18, 0.781); */
+    }
+
+    .secondquality.active {
+        max-width: 60vw;
+    }
+
+    /* EXPERIENCE PRO  */
+
+    .exppro {
+        max-width: 100vw;
+        padding-bottom: 3rem;
+    }
+
+    .expproh2 {
+        max-width: 100vw;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .expprop {
+        max-width: 80vw;
+        height: auto;
+    }
+
+    .exppro.active {
+        max-width: 80vw;
+    }
+
+    .expprop.active {
+        max-width: 80vw;
+    }
+
+    .expproh2.active {
+        max-width: 80vw;
+    }
+}
+
+@media (max-width: 325px) {
+    article #placeholder {
+        position: relative;
+        display: flex;
+        width: 100%;
+        max-width: 13vw;
+        margin-left: -20vw;
+        top: 2vw;
+    }
+
+    nav {
+        display: none;
+    }
+
+    article .description {
+        position: relative;
+        margin-left: -200vw;
+        max-width: 50vw;
+        font-size: 0.9rem;
+        padding-bottom: 1rem;
+        top: -9vh;
+    }
+
+    article h1 {
+        position: relative;
+        margin-left: -180vw;
+        font-size: 2.0rem;
+        top: -10vh;
+    }
+
+    .downloadcv {
+        position: relative;
+        margin-left: -195vw;
+        top: -9vh;
+    }
+
+    .viewcv {
+        position: relative;
+        top: -9vh;
+    }
+
+    /* logo / icon  */
+
+    #drawicon {
+        display: none;
+    }
+
+    #palette {
+        position: relative;
+        left: 75vw;
+        top: -14vw;
+    }
+
+    #jobicon {
+        display: none;
+    }
+
+    #logostar {
+        position: relative;
+        left: 66vw;
+        width: 5vw;
+        top: -13vw;
+    }
+
+    #persoqualityicon {
+        display: none;
+    }
+
+    #codeicon {
+        display: none;
+    }
+
+    /* Categorie design / competence  */
+
+    .design {
+        max-width: 90vw;
+        padding-bottom: 4rem;
+    }
+
+    .firstcompetence {
+        max-width: 60vw;
+    }
+
+    .firstp {
+        max-width: 80vw;
+    }
+
+    .firstp.active {
+        max-width: 80vw;
+    }
+
+    /* CATEGORIE QUALITE */
+
+    /* First h2 for .firstquality */
+    .firstquality {
+        max-width: 80vw;
+    }
+
+    .secondquality {
+        max-width: 80vw;
+    }
+
+    .quality {
+        max-width: 80vw;
+        padding-bottom: 5rem;
+    }
+
+    .qualitys {
+        max-width: 80vw;
+        padding-bottom: 25vw;
+
+    }
+
+    nav {
+        display: none;
+    }
+
+    .pquality {
+        max-width: 80vw;
+    }
+
+    .pqualitys {
+        max-width: 80vw;
+    }
+
+    .pquality.active {
+        position: relative;
+        color: white;
+        font-size: 1.05rem;
+        padding-left: 15px;
+        max-width: 80vw;
+        /* background-color: rgba(18, 18, 18, 0.781); */
+    }
+
+    .firstquality.active {
+        max-width: 60vw;
+    }
+
+    .pqualitys.active {
+        position: relative;
+        color: white;
+        font-size: 1.05rem;
+        padding-left: 15px;
+        max-width: 80vw;
+        /* background-color: rgba(18, 18, 18, 0.781); */
+    }
+
+    .secondquality.active {
+        max-width: 60vw;
+    }
+
+    /* EXPERIENCE PRO  */
+
+    .exppro {
+        max-width: 100vw;
+        padding-bottom: 3rem;
+    }
+
+    .expproh2 {
+        max-width: 100vw;
+    }
+
+    .expprop {
+        max-width: 80vw;
+        height: auto;
+    }
+
+    .exppro.active {
+        max-width: 80vw;
+    }
+
+    .expprop.active {
+        max-width: 80vw;
+    }
+
+    .expproh2.active {
+        max-width: 80vw;
+    }
+}
+
+@media (max-width: 325px) {
+    article #placeholder {
+        position: relative;
+        display: flex;
+        width: 100%;
+        max-width: 13vw;
+        margin-left: -20vw;
+        top: 2vw;
+    }
+
+    nav {
+        display: none;
+    }
+
+    article .description {
+        position: relative;
+        margin-left: -200vw;
+        max-width: 50vw;
+        font-size: 0.9rem;
+        padding-bottom: 1rem;
+        top: -9vh;
+    }
+
+    article h1 {
+        position: relative;
+        margin-left: -180vw;
+        font-size: 2.0rem;
+        top: -10vh;
+    }
+
+    .downloadcv {
+        position: relative;
+        margin-left: -195vw;
+        top: -9vh;
+    }
+
+    .viewcv {
+        position: relative;
+        top: -9vh;
+    }
+
+    /* logo / icon  */
+
+    #drawicon {
+        display: none;
+    }
+
+    #palette {
+        position: relative;
+        left: 75vw;
+        top: -14vw;
+    }
+
+    #jobicon {
+        display: none;
+    }
+
+    #logostar {
+        position: relative;
+        left: 66vw;
+        width: 5vw;
+        top: -13vw;
+    }
+
+    #persoqualityicon {
+        display: none;
+    }
+
+    #codeicon {
+        display: none;
+    }
+
+    /* Categorie design / competence  */
+
+    .design {
+        max-width: 90vw;
+        padding-bottom: 4rem;
+    }
+
+    .firstcompetence {
+        max-width: 60vw;
+    }
+
+    .firstp {
+        max-width: 80vw;
+    }
+
+    .firstp.active {
+        max-width: 80vw;
+    }
+
+    /* CATEGORIE QUALITE */
+
+    /* First h2 for .firstquality */
+    .firstquality {
+        max-width: 80vw;
+    }
+
+    .secondquality {
+        max-width: 80vw;
+    }
+
+    .quality {
+        max-width: 80vw;
+        padding-bottom: 5rem;
+    }
+
+    .qualitys {
+        max-width: 80vw;
+        padding-bottom: 25vw;
+
+    }
+
+    .pquality {
+        max-width: 80vw;
+    }
+
+    .pqualitys {
+        max-width: 80vw;
+    }
+
+    .pquality.active {
+        position: relative;
+        color: white;
+        font-size: 1.05rem;
+        padding-left: 15px;
+        max-width: 80vw;
+        /* background-color: rgba(18, 18, 18, 0.781); */
+    }
+
+    .firstquality.active {
+        max-width: 60vw;
+    }
+
+    .pqualitys.active {
+        position: relative;
+        color: white;
+        font-size: 1.05rem;
+        padding-left: 15px;
+        max-width: 80vw;
+        /* background-color: rgba(18, 18, 18, 0.781); */
+    }
+
+    .secondquality.active {
+        max-width: 60vw;
+    }
+
+    /* EXPERIENCE PRO  */
+
+    .exppro {
+        max-width: 100vw;
+        padding-bottom: 3rem;
+    }
+
+    .expproh2 {
+        max-width: 100vw;
+    }
+
+    .expprop {
+        max-width: 80vw;
+        height: auto;
+    }
+
+    .exppro.active {
+        max-width: 80vw;
+    }
+
+    .expprop.active {
+        max-width: 80vw;
+    }
+
+    .expproh2.active {
+        max-width: 80vw;
+    }
+
+    nav {
+        display: none;
+    }
+}
+
+@media (max-width: 300px) {
+    article #placeholder {
+        position: relative;
+        display: flex;
+        width: 100%;
+        max-width: 13vw;
+        margin-left: -20vw;
+        top: 2vw;
+    }
+
+    article .description {
+        position: relative;
+        margin-left: -225vw;
+        max-width: 50vw;
+        font-size: 0.9rem;
+        padding-bottom: 1rem;
+        top: -9vh;
+    }
+
+    article h1 {
+        position: relative;
+        margin-left: -200vw;
+        font-size: 1.5rem;
+        top: -8vh;
+        padding-bottom: 2rem;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .downloadcv {
+        position: relative;
+        margin-left: -215vw;
+        top: -9vh;
+    }
+
+    .viewcv {
+        position: relative;
+        top: -9vh;
+    }
+
+    /* logo / icon  */
+
+    #drawicon {
+        display: none;
+    }
+
+    #palette {
+        position: relative;
+        left: 79vw;
+        top: -16.5vw;
+    }
+
+    #jobicon {
+        display: none;
+    }
+
+    #logostar {
+        position: relative;
+        left: 66vw;
+        width: 5vw;
+        top: -13vw;
+    }
+
+    #persoqualityicon {
+        display: none;
+    }
+
+    #codeicon {
+        display: none;
+    }
+
+    /* Categorie design / competence  */
+
+    .design {
+        max-width: 90vw;
+        padding-bottom: 4rem;
+    }
+
+    .firstcompetence {
+        max-width: 60vw;
+    }
+
+    .firstp {
+        max-width: 80vw;
+    }
+
+    .firstp.active {
+        max-width: 80vw;
+    }
+
+    /* CATEGORIE QUALITE */
+
+    /* First h2 for .firstquality */
+    .firstquality {
+        max-width: 80vw;
+    }
+
+    .secondquality {
+        max-width: 80vw;
+    }
+
+    .quality {
+        max-width: 80vw;
+        padding-bottom: 5rem;
+    }
+
+    .qualitys {
+        max-width: 80vw;
+        padding-bottom: 25vw;
+
+    }
+
+    .pquality {
+        max-width: 80vw;
+    }
+
+    .pqualitys {
+        max-width: 80vw;
+    }
+
+    .pquality.active {
+        position: relative;
+        color: white;
+        font-size: 1.05rem;
+        padding-left: 15px;
+        max-width: 80vw;
+        /* background-color: rgba(18, 18, 18, 0.781); */
+    }
+
+    .firstquality.active {
+        max-width: 60vw;
+    }
+
+    .pqualitys.active {
+        position: relative;
+        color: white;
+        font-size: 1.05rem;
+        padding-left: 15px;
+        max-width: 80vw;
+        /* background-color: rgba(18, 18, 18, 0.781); */
+    }
+
+    .secondquality.active {
+        max-width: 60vw;
+    }
+
+    /* EXPERIENCE PRO  */
+
+    .exppro {
+        max-width: 100vw;
+        padding-bottom: 3rem;
+    }
+
+    .expproh2 {
+        max-width: 100vw;
+    }
+
+    .expprop {
+        max-width: 80vw;
+        height: auto;
+    }
+
+    .exppro.active {
+        max-width: 80vw;
+    }
+
+    .expprop.active {
+        max-width: 80vw;
+    }
+
+    .expproh2.active {
+        max-width: 80vw;
+    }
+}
+
+@media (max-width: 250px) {
+    article #placeholder {
+        position: relative;
+        display: flex;
+        width: 100%;
+        max-width: 13vw;
+        margin-left: -20vw;
+        top: 2vw;
+    }
+
+    article .description {
+        position: relative;
+        margin-left: -265vw;
+        max-width: 50vw;
+        font-size: 0.9rem;
+        padding-bottom: 1rem;
+        top: -9vh;
+    }
+
+    article h1 {
+        position: relative;
+        margin-left: -240vw;
+        font-size: 1.5rem;
+        top: -8vh;
+        padding-bottom: 2rem;
+    }
+
+    .downloadcv {
+        position: relative;
+        margin-left: -255vw;
+        top: -9vh;
+    }
+
+    .viewcv {
+        position: relative;
+        top: -9vh;
+    }
+
+    /* logo / icon  */
+
+    #drawicon {
+        display: none;
+    }
+
+    #palette {
+        display: none;
+    }
+
+    #jobicon {
+        display: none;
+    }
+
+    #logostar {
+        display: none;
+    }
+
+    article button {
+        position: relative;
+        top: -10rem;
+        left: 38.5rem;
+        padding: 0.5rem 1rem;
+        margin-left: 0rem;
+        border-radius: 9px;
+        background: transparent;
+        color: white;
+        border: 2.5px solid white;
+    }
+
+
+    #persoqualityicon {
+        display: none;
+    }
+
+    #codeicon {
+        display: none;
+    }
+
+    /* Categorie design / competence  */
+
+    .design {
+        max-width: 90vw;
+        padding-bottom: 4rem;
+    }
+
+    .firstcompetence {
+        max-width: 60vw;
+    }
+
+    .firstp {
+        max-width: 80vw;
+    }
+
+    .firstp.active {
+        max-width: 80vw;
+    }
+
+    /* CATEGORIE QUALITE */
+
+    /* First h2 for .firstquality */
+    .firstquality {
+        max-width: 80vw;
+    }
+
+    .secondquality {
+        max-width: 80vw;
+    }
+
+    .quality {
+        max-width: 80vw;
+        padding-bottom: 10rem;
+    }
+
+    .qualitys {
+        max-width: 80vw;
+        padding-bottom: 55vw;
+
+    }
+
+    .pquality {
+        max-width: 80vw;
+    }
+
+    .pqualitys {
+        max-width: 80vw;
+    }
+
+    .pquality.active {
+        position: relative;
+        color: white;
+        font-size: 1.05rem;
+        padding-left: 15px;
+        max-width: 80vw;
+        /* background-color: rgba(18, 18, 18, 0.781); */
+    }
+
+    .firstquality.active {
+        max-width: 60vw;
+    }
+
+    .pqualitys.active {
+        position: relative;
+        color: white;
+        font-size: 1.05rem;
+        padding-left: 15px;
+        max-width: 80vw;
+        /* background-color: rgba(18, 18, 18, 0.781); */
+    }
+
+    .secondquality.active {
+        max-width: 60vw;
+    }
+
+    /* EXPERIENCE PRO  */
+
+    .exppro {
+        max-width: 100vw;
+        padding-bottom: 3rem;
+    }
+
+    .expproh2 {
+        max-width: 100vw;
+    }
+
+    .expprop {
+        max-width: 80vw;
+        height: auto;
+    }
+
+    .exppro.active {
+        max-width: 80vw;
+    }
+
+    .expprop.active {
+        max-width: 80vw;
+    }
+
+    .expproh2.active {
+        max-width: 80vw;
+    }
+}

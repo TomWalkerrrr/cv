@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Ceci est un site web avec mon CV">
+    <meta name="author" content="Tom Regnier">
+    <meta name="copyright" content="Tom Regnier">
+    <meta name="robots" content="index, follow">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="./script/script.js" defer></script>
+
+    <title>Acceuil - CV Tom Regnier</title>
+</head>
+
+<body data-page="index.html">
+
+    <header>
+        <nav>
+            <ul>
+                <h1 id="h1">Tom Regnier</h1>
+                <li><a id="apropos" href="#acceuil">A propos</a></li>
+                <li><a href="#competence">Compétences</a></li>
+                <li><a href="#projet">Mes Projets</a></li>
+                <li><a href="contact">Contact</a></li>
+                <div class="setting">
+                    <img id="iconsetting" src="./image/settings.svg" alt="Icon de paramètre">
+                    <ul class="openmenu">
+                        <li><a href="#darkmode">Mode sombre</a></li>
+                        <li><a href="#lightmode">Mode clair</a></li>
+                        <li><a href="#langue">Langue</a></li>
+                        <li><a href="#accessibilite">Accessibilité</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Profile (main of the page) -->
+
+    <main>
+        <article id="profile">
+            <img id="placeholder" src="./image/placeholderimg.jpg" alt="Image de mon profile">
+            <h1 class="h1presentation">Tom <span style="text-transform: uppercase;">Regnier</span></h1>
+            <p class="description">Je m'appelle Tom Regnier, passionné d'informatique depuis plus de 10 ans, et plus particulièrement de développement informatique. Je vous adresse cette candidature pour postuler au poste de [POSTE]. Merci.</p>
+            <button class="downloadcv">Télécharger le CV</button>
+            <button class="viewcv">Voir le CV</button>
+        </article>
+
+        <article class="secondarticle">
+            <div class="separator"></div>
+            <h2 class="h2title" id="competence">Compétences</h2>
+            <img id="palette" src="./image/palette.svg" alt="Icon de palette de couleurs">
+
+            <div class="design">
+                <h2 class="firstcompetence">Design</h2>
+                <p class="firstp">Je privilégie un design dynamique et responsive, alliant esthétique et fonctionnalité. Mon approche vise à offrir une expérience utilisateur fluide et optimisée</p>
+            </div>
+            <img id="drawicon" src="./image/draw2.svg" alt="Icon de dessin">
+
+            <!-- <h2 class="language">Langages</h2> -->
+            <!-- <img id="folder" src="./image/folder_code_52dp_FF6550_FILL0_wght400_GRAD0_opsz48.svg" alt="" srcset=""> -->
+            <div class="seconddesign">
+                <h2 class="firstcompetencehtml">LANGUAGE</h2>
+                <p class="firstphtml">HTML <br>
+                    CSS <br>
+                    PHP <br>
+                    JAVASCRIPT <br>
+                    PYTHON <br></p>
+            </div>
+            <!-- <img id="codeicon" src="./image/htmlLogoV3.svg" alt="Icon de dessin">
+             <img id="cssicon" src="./image/css.svg" alt="Icon de dessin"> -->
+            <img id="codeicon" src="./image/codelogo.svg" alt="Icon de code">
+
+            <!-- <h2 class="firstcompetenceperso">Qualité</h2> -->
+            <!-- <p class="persoquality">Leaderships <br>Détermination <br>Ambitieux <br> Respectueux <br> Travail d'équipe</p> -->
+        </article>
+
+        <article class="qualityarticle">
+
+            <div class="separatordeux"></div>
+            <h2 class="h2title">Qualité</h2>
+            <img id="logostar" src="./image/starv2.svg" alt="Logo représentant une étoile">
+
+        </article>
+
+        <article class="articlequality">
+            <div class="quality">
+                <h2 class="firstquality">Qualité personnelles</h2>
+                <p class="pquality">Rigoureux, Créatif, Persévérant</p>
+            </div>
+            <img id="persoqualityicon" src="./image/persoquality.svg" alt="Icon de dessin">
+
+            <div class="qualitys">
+                <h2 class="secondquality">Qualité professionnelle</h2>
+                <p class="pqualitys">Esprit d’équipe, Sens du détail, Orientation résultats</p>
+            </div>
+
+            <img id="persoqualityicon" src="./image/persoquality.svg" alt="Icon de dessin">
+
+            <article class="articleexp">
+                <div class="separatordeux" style="background: white;"></div>
+                <h2 class="h2title">Expérience professionnelle</h2>
+                <br>
+                <img id="jobicon" src="./image/jobicon.svg" alt="Image représentant un badge">
+
+                <div class="exppro">
+                    <!-- <h2 class="expproh2">Expérience professionnelle</h2> -->
+                    <p class="expprop">Programmation informatique
+
+                        Création d'une micro-entreprise spécialisée dans le développement de jeux vidéo.
+                        Réalisation de plusieurs projets complets, de la conception à la mise en production.
+                        Organisation et encadrement d'une équipe.
+                        <br><br>
+                        Coordination de l’équipe : définition des objectifs, planification des tâches.
+                        Utilisation d’Unreal Engine 5
+                        Conception des jeux via Blueprints (programmation visuelle) :
+                        <br><br>
+                        -Création de mécaniques de jeu
+                        -Développement de niveaux
+                        -Gestion des interactions et de la logique du gameplay
+                        Création de la majorité des interfaces utilisateur (UI) :
+                        -Menus 3D, HUD, écrans de transition, etc.
+                    <br><br></p>
+                </div>
+            </article>
+        </article>
+    </main>
+
+</body>
+
+</html>
